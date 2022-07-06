@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=homepage.css.map */
+.navbar {
+  border-bottom: 0.5px solid black;
+}
+
+.NavLeftBtn {
+  width: 30%;
+  height: 27px;
+  margin-left: 250px;
+}
+
+.NavLeftBtn .ActivePage {
+  color: #194de9;
+  font-weight: bold;
+  border-bottom: 3px solid #194de9;
+}
+
+.Hover:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.NavRightBtn a:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.MainContent {
+  margin-left: 250px;
+}
+/*# sourceMappingURL=homepage.css.map */
