@@ -24,3 +24,41 @@
 .MainContent{
     margin-left: 250px;
 }
+
+.heading h1{
+    font-size: 50px;
+}
+
+.headingRight{
+    margin-left: 20px;
+}
+
+.mainBtn{
+    margin-left: 265px;
+    margin-top: 50px;
+}
+
+.ActBtn{
+    color: rgb(25, 77, 233);
+    font-size: small;
+    font-weight: bold;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.ActBtn2{
+    color: black;
+    background-color: rgba($color: #808080, $alpha: 0.1);
+    font-size: small;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.ActBtn2:hover{
+    color: rgb(25, 77, 233);
+    text-decoration: underline;
+}
+
+.searchSection{
+    margin-left: 265px;
+}
