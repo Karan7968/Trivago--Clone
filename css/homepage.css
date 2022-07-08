@@ -63,4 +63,69 @@
 .searchSection {
   margin-left: 265px;
 }
+
+.SearchInp {
+  width: 300px;
+  border: none;
+}
+
+.DateInp {
+  width: 120px;
+  margin-left: 15px;
+  border: none;
+}
+
+.Guest {
+  width: 120px;
+  border: none;
+  margin-left: 15px;
+}
+
+.searchBtn {
+  padding: 5px 50px;
+}
+
+.quote {
+  margin-left: 250px;
+}
+
+.compare {
+  width: 870px;
+  margin-left: 265px;
+}
+
+.compText {
+  text-decoration: none;
+  font-size: small;
+}
+
+.quote2 {
+  margin-left: 240px;
+  margin-top: 200px;
+}
+
+.HotelBtn {
+  margin-left: 240px;
+}
+
+.btn-1 {
+  color: #194de9;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 3px solid #194de9;
+}
+
+.btn-2 {
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-1:hover {
+  color: black;
+}
+
+.btn-2:hover {
+  color: black;
+}
 /*# sourceMappingURL=homepage.css.map */
