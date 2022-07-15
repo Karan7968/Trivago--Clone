@@ -128,4 +128,14 @@
 .btn-2:hover {
   color: black;
 }
+
+.cardRow {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.round {
+  border-radius: 25px;
+  margin-top: 10px;
+}
 /*# sourceMappingURL=homepage.css.map */
