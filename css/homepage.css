@@ -138,4 +138,21 @@
   border-radius: 25px;
   margin-top: 10px;
 }
+
+.myFont {
+  font-size: smaller;
+}
+
+.custBold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.custPara {
+  font-size: 14px;
+}
+
+.custA {
+  text-decoration: none;
+}
 /*# sourceMappingURL=homepage.css.map */
