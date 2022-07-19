@@ -165,3 +165,33 @@
     color: black;
     text-decoration: underline;
 }
+
+.footer{
+    background-color: #0A1121;
+    height: 95vh;
+    margin-top: 40px;
+}
+
+.footerInp{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.footerBtn{
+    background-color: #AFB3BC;
+    padding: 6px 14px;
+    border-color: #AFB3BC;
+    border-radius: 10px;
+}
+
+.footerBtn:hover{
+    background-color: #AFB3BC;
+    border-color: #AFB3BC;
+}
+
+.hrLine{
+    border: 0.5px solid white;
+    border-bottom: 100%;
+}
