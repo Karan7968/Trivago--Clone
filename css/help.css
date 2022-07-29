@@ -1,0 +1,80 @@
+.heading h1 {
+  font-size: 35px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.homeBtn {
+  font-size: 14px;
+  margin-left: 1130px;
+  color: #808080;
+  text-decoration: none;
+}
+
+.helpText h2 {
+  color: #007FAD;
+}
+
+.helpInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.helpInput input {
+  width: 500px;
+  height: 40px;
+}
+
+.myCard {
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.promoted {
+  margin-left: 240px;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #29343A;
+  height: 50vh;
+}
+
+footerBtn {
+  background-color: #AFB3BC;
+  padding: 6px 14px;
+  border-color: #AFB3BC;
+  border-radius: 10px;
+}
+
+.footerBtn:hover {
+  background-color: #AFB3BC;
+  border-color: #AFB3BC;
+}
+
+.hrLine {
+  border: 0.5px solid white;
+  border-bottom: 100%;
+}
+
+.custD {
+  width: 350px;
+  background-color: #0A1121;
+  border-color: white;
+}
+
+.custD:hover {
+  background-color: #0A1121;
+  border-color: white;
+}
+
+.social {
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+/*# sourceMappingURL=help.css.map */

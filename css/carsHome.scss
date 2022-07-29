@@ -1,0 +1,26 @@
+.navbar{
+    border-bottom: 0.5px solid black;
+}
+.NavLeftBtn{
+    width: 30%;
+    height: 27px;
+    margin-left: 250px;
+}
+
+.NavLeftBtn .ActivePage{
+    color:rgb(25, 77, 233);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(25, 77, 233);
+}
+
+.Hover:hover{
+    background-color: rgba($color: #808080, $alpha: 0.1);
+}
+
+.NavRightBtn a:hover{
+    background-color: rgba($color: #808080, $alpha: 0.1);
+}
+
+.MainContent{
+    margin-left: 250px;
+}
