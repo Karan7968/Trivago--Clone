@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/FlightsHome.css">
+</head>
+<body>
+<!-- navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="NavLeftBtn">
+     <a class="btn Hover" href="./Homepage.html">
+       <img src="../images/bed-front.jpg" width="20" height="15" alt="suitcase">Stays
+     </a>
+     <a class="btn Hover" href="./carsHome.html">
+       <img src="../images/car-svg.jpg" width="20" height="15" alt="suitcase">Cars
+     </a>
+     <a class="btn ActivePage" href="./FlightsHome.html">
+       <img src="../images/Flight.jpg" width="20" height="15" alt="suitcase">Flights
+     </a>
+     <a class="btn Hover" href="#">
+       <img src="../images/suitcase.jpg" width="20" height="15" alt="suitcase">Packages
+     </a>
+    </div>
+    <div class="NavRightBtn">
+     <a class="btn" href="#">
+       Login
+     </a>
+     <a class="btn" href="#">
+       Menu
+     </a>
+     <a class="btn" href="#">
+       INR
+     </a>
+    </div>
+    </div>
+   </nav>
+<!-- A New components -->
+<div class="MainContent">
+    <h2 style="margin-top: 90px;">
+        Welcome! Find a flexible flight for your next trip.
+    </h2>
+    <!-- dropdown -->
+    <div class="Mydropdown d-flex mt-4">
+        <div class="dropdown">
+            <button class="btn btn-sm btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Return
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">One Way</a></li>
+              <li><a class="dropdown-item" href="#">Multi City</a></li>
+            </ul>
+        </div>
+        <!-- 2nd dropdown btn -->
+        <div class="dropdown">
+            <button class="btn btn-sm btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              1 adult
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Adults</a></li>
+              <li><a class="dropdown-item" href="#">Students</a></li>
+              <li><a class="dropdown-item" href="#">Youths</a></li>
+              <li><a class="dropdown-item" href="#">Children</a></li>
+              <li><a class="dropdown-item" href="#">Toddlers on own seat</a></li>
+              <li><a class="dropdown-item" href="#">Infants on lap</a></li>
+            </ul>
+        </div>
+        <!-- 3rd Dropdown -->
+        <div class="dropdown">
+            <button class="btn btn-sm btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Economy
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Premium Econamy</a></li>
+              <li><a class="dropdown-item" href="#">Business</a></li>
+              <li><a class="dropdown-item" href="#">First</a></li>
+              <li><a class="dropdown-item" href="#">Multiple</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Input -->
+    <div class="inPut">
+        <input type="text">
+        <input type="text">
+        <input type="date">
+        <input type="date">
+       <a class="btn btn-success" href="#">
+          <img src="../images/magnifying-glass-solid.svg" alt="magnifying-glass-solid">
+      </a>
+    </div>
+</div>
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
