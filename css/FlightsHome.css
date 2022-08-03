@@ -29,4 +29,74 @@
 .smallFont {
   font-size: 12px;
 }
+
+.myCards {
+  margin: 0 250px;
+}
+
+.cardImg {
+  border-radius: 7px;
+}
+
+.myBigCards {
+  margin: 0 250px;
+}
+
+.myCard2 {
+  border-radius: 7px;
+}
+
+.privacy {
+  margin-top: 40px;
+}
+
+.privacy a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #0A1121;
+  height: 95vh;
+  margin-top: 40px;
+}
+
+.footerInp {
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.footerBtn {
+  background-color: #AFB3BC;
+  padding: 6px 14px;
+  border-color: #AFB3BC;
+  border-radius: 10px;
+}
+
+.footerBtn:hover {
+  background-color: #AFB3BC;
+  border-color: #AFB3BC;
+}
+
+.hrLine {
+  border: 0.5px solid white;
+  border-bottom: 100%;
+}
+
+.custD {
+  width: 350px;
+  background-color: #0A1121;
+  border-color: white;
+}
+
+.custD:hover {
+  background-color: #0A1121;
+  border-color: white;
+}
+
+.social {
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
 /*# sourceMappingURL=FlightsHome.css.map */
