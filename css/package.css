@@ -1,0 +1,59 @@
+.navbar {
+  border-bottom: 0.5px solid black;
+}
+
+.NavLeftBtn {
+  width: 30%;
+  height: 27px;
+  margin-left: 250px;
+}
+
+.NavLeftBtn .ActivePage {
+  color: #194de9;
+  font-weight: bold;
+  border-bottom: 3px solid #194de9;
+}
+
+.Hover:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.NavRightBtn a:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.myContent {
+  margin: 0 250px;
+}
+
+.myCard2 {
+  border-radius: 7px;
+}
+
+.privacy {
+  margin-top: 40px;
+}
+
+.privacy a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #0A1121;
+  height: 95vh;
+  margin-top: 40px;
+}
+
+.footerInp {
+  width: 450px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.footerBtn {
+  background-color: #AFB3BC;
+  padding: 6px 14px;
+  border-color: #AFB3BC;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=package.css.map */

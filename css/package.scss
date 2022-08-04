@@ -1,0 +1,63 @@
+.navbar{
+    border-bottom: 0.5px solid black;
+}
+.NavLeftBtn{
+    width: 30%;
+    height: 27px;
+    margin-left: 250px;
+}
+
+.NavLeftBtn .ActivePage{
+    color:rgb(25, 77, 233);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(25, 77, 233);
+}
+
+.Hover:hover{
+    background-color: rgba($color: #808080, $alpha: 0.1);
+}
+
+.NavRightBtn a:hover{
+    background-color: rgba($color: #808080, $alpha: 0.1);
+}
+
+// my content
+
+.myContent{
+    margin: 0 250px;
+}
+
+// my big cards
+
+.myCard2{
+    border-radius: 7px;
+}
+
+.privacy{
+    margin-top: 40px;
+}
+
+.privacy a{
+    text-decoration: none;
+}
+
+// footer
+.footer{
+    background-color: #0A1121;
+    height: 95vh;
+    margin-top: 40px;
+}
+
+.footerInp{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.footerBtn{
+    background-color: #AFB3BC;
+    padding: 6px 14px;
+    border-color: #AFB3BC;
+    border-radius: 10px;
+}

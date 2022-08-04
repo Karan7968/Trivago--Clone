@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/package.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="NavLeftBtn">
+           <a class="btn ActivePage" href="./Homepage.html">
+             <img src="../images/bed-front.jpg" width="20" height="15" alt="suitcase">Stays
+           </a>
+           <a class="btn Hover" href="./carsHome.html">
+             <img src="../images/car-svg.jpg" width="20" height="15" alt="suitcase">Cars
+           </a>
+           <a class="btn Hover" href="./FlightsHome.html">
+             <img src="../images/Flight.jpg" width="20" height="15" alt="suitcase">Flights
+           </a>
+           <a class="btn Hover" href="#">
+             <img src="../images/suitcase.jpg" width="20" height="15" alt="suitcase">Packages
+           </a>
+        </div>
+          <div class="NavRightBtn">
+            <a class="btn" href="#">
+                Login
+              </a>
+              <a class="btn" href="#">
+                Menu
+             </a>
+             <a class="btn" href="#">
+               INR
+             </a>
+          </div>
+        </div>
+    </nav>
+<!-- my content -->
+<div class="myContent">
+    <!-- Heading -->
+    <h2 class="heading mt-5">Search hundreds of flight+hotel sites at once.</h2>
+    <div class="Mydropdown d-flex mt-4">
+        <div class="dropdown">
+            <button class="btn btn-sm btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              1 traveller
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Adult</a></li>
+              <li><a class="dropdown-item" href="#">Children</a></li>
+            </ul>
+        </div>
+        <!-- 2nd dropdown btn -->
+        <div class="dropdown">
+            <button class="btn btn-sm btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              exact day
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">+ 3 days</a></li>
+        </div>
+    </div>
+    <!-- input -->
+    <div class="inPut">
+        <input type="text">
+        <input type="text">
+        <input type="date">
+        <input type="date">
+       <a class="btn btn-success" href="#">
+          <img src="../images/magnifying-glass-solid.svg" alt="magnifying-glass-solid">
+      </a>
+    </div>
+    <!-- my big cards -->
+    <div class="myBigCards">
+        <div class="myHeading">
+          <h4>Top 8 popular cities</h4>
+          <p>See what's popular with other travellers</p>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img class="myCard2" src="../images/India gate.jpg" width="442" height="300" alt="India gate">
+            <p class="fw-bold">New Delhi, National Capital Territory of India, India</p>
+          </div>
+          <div class="col-6">
+            <img class="myCard2" src="../images/Mumbai Bridge.jpg" width="442" height="300" alt="Mumbai bridge">
+            <p class="fw-bold">Mumbai,Maharastra,India</p>
+          </div>
+        </div>
+        <div class="privacy">
+          <a href="">Privacy</a>
+        </div>
+      </div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <!-- container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <p class="mt-3 text-light" style="font-size: smaller;">Want to receive exclusive hotel offers? Subscribe to our newsletter!</p>
+        </div>
+        <div class="col-7">
+          <div class="footerSearch mt-3">
+            <input class="footerInp mr-2" placeholder="Email address" type="text">
+            <a class="btn btn-primary footerBtn fw-bold" href="#">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      <!-- horizontal line -->
+      <div class="mt-3 hrLine"></div>
+      <!-- new section -->
+      <div class="row mt-4">
+        <div class="col">
+          <p class="text-light" style="font-size: 12px;">trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf,<br>Germany</p>
+        </div>
+        <div class="col">
+          <div class="dropdown  float-end">
+            <a class="btn btn-secondary dropdown-toggle custD" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              India
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Arab World</a></li>
+              <li><a class="dropdown-item" href="#">Australia</a></li>
+              <li><a class="dropdown-item" href="#">America</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- social img -->
+      <div class="socialImg">
+        <img class="social" src="../images/facebook-f-brands.svg" width="25" height="25" alt="facebook">
+        <img class="social" src="../images/twitter-brands.svg" width="25" height="25" alt="Twitter">
+        <img class="social" src="../images/instagram-square-brands.svg" width="25" height="25" alt="Instagram">
+        <img class="social" src="../images/youtube-square-brands.svg" width="25" height="25" alt="Youtube">
+        <img class="social" src="../images/linkedin-brands.svg" width="25" height="25" alt="LinkedIn">
+      </div>
+      <!-- footer Buttons -->
+      <div class="row">
+        <div class="col">
+          <a href="">Company</a>
+          <a href="">Jobs</a>
+          <a href="">Press</a>
+          <a href="">Investor Relation</a>
+        </div>
+        <div class="col">
+          <a href="">Mobile apps - searching on the go</a>
+          <a href="">trivago business studio</a>
+        </div>
+        <div class="col">
+          <a href="./help.html">Help</a>
+          <a href="">Learn- How trivago workds</a>
+          <a href="">Terms and conditions</a>
+          <a href="">Legal Information</a>
+          <a href="">Do not sell my personal information</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Cyber security</a>
+          <a href="">Coronavirus(Covid-19) travel advice</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Js script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
